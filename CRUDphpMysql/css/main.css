@@ -1,0 +1,66 @@
+@charset "UTF-8";
+*{
+	 box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;  
+	/*font-family: 'Abel', sans-serif;
+	background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+}
+.datos{
+  width: 90%;
+  margin: 0 auto;
+  text-decoration: blink;
+}
+
+.izq{
+  width:50%; 
+  text-align: left;
+  
+}
+.der{
+  
+width: 30%;
+  float:left;
+  display:block;
+  padding: 2px;
+}
+.cen{
+  text-align: center;
+}
+.vista{
+  width: 30%;
+  float:left;
+  display:block;
+  padding: 2px;
+  
+}
+  .celda { height:30px;
+         width:95%;
+         min-width:300px;
+	 border:1px solid #000;
+	}
+   .celda .naranja { border-right:1px solid #000;
+		     width:33%;
+		     height:100%;
+		     font-weight:bold;
+		     font-size:18px;
+		     background-color:#FC6;
+		     text-align:center;
+		     float:left;
+		     display:block;
+		   }
+     .celda .casilla { border-right:1px solid #000;
+		       width:33%;
+		       height:100%;
+		       text-align:center;
+		       font-weight:bold;
+		       font-size:18px;
+		       float:left;
+		       display:block;
+		       background-color:#FFF;
+		     }  

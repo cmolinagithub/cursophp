@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+  <h1 class="cen">..... INTRODUCE TUS DATOS .....</h1>
+  <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+    <table>
+      <tr>
+        <td class="der">Login:</td>
+        <td class="izq"><input type="text" name="login"></td>
+      </tr>
+      <tr>
+        <td class="der">Password:</td>
+        <td class="izq"><input type="password" name="password"></td>
+      </tr>
+      <tr>
+        <td class="der">Recordar:</td>
+        <td class="izq"><input type="checkbox" id="recordar" name="recordar"></td>
+      </tr>  
+      <tr>
+        <td class="cen" colspan="2"><input type="submit" name="enviar" value="LOGIN"></td>
+      </tr>
+    </table>
+
+  </form>
+</body>
+</html>

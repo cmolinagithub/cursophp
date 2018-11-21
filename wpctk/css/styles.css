@@ -1,0 +1,419 @@
+/*------------------------------------------------------------- 
+                    GLOBAL STYLES
+---------------------------------------------------------------*/
+
+/*------------------------------------------------------------- 
+                    SHADOW STYLES
+---------------------------------------------------------------*/
+
+.shadow-right {
+	background:url(../images/icon/shadow-right.png) no-repeat right bottom;
+	position:absolute;
+	width:100%;
+	height:100%;
+	right:-17px;
+	bottom:-14px;
+	z-index:-1;
+	opacity:0;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+/*------------------------------------------------------------- 
+                    SERVICES STYLES
+---------------------------------------------------------------*/
+
+.services {
+	border:1px solid #e1e1e1;
+	width: 90%;
+	float: right;
+	padding: 25px 12px 15px 45px;
+	position:relative;
+	background:#fff;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	background:#fafafa;
+}
+
+.services:hover {
+	background:#1b9cff;
+	border-color:#1b9cff;
+	cursor:pointer;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.services:hover h3, .services:hover p , .services:hover a {
+	color:#fff;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.services:hover .service-ico1 ,
+.services:hover .service-ico2 ,
+.services:hover .service-ico3 {
+	background-color:#484747; /*agregada la b  */
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.services h3{
+	font-size: 16px;
+	color:#444444;
+	font-weight: 800;
+	margin-top:0px;
+}
+
+.services p{
+	font-size: 12px;
+	color:#8a8a8a;
+	line-height:22px;
+	font-family:Open Sans, Sans-serif;
+}
+
+/*ESTE CODIGO DEBE SER UTILIZADO O BORRADO CUANDO LA PAGINA YA PASE A PRODUCCION*/
+/* .linkh3 {
+	font-size: 16px;
+	color:#444444;
+	font-weight: 800;
+	margin-top:0px;
+}
+
+.linkp{
+	font-size: 12px;
+	color:#8a8a8a;
+	line-height:22px;
+	font-family:Open Sans, Sans-serif;
+} */
+
+.service-ico1, .service-ico2, .service-ico3 {
+	background:#1b9cff url(../images/icon/ico1.png) no-repeat center center;
+	width: 74px;
+	height: 74px;
+	border: 7.5px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: -38px;
+	top: 22%;
+	overflow:hidden;
+}
+
+.service-ico2 {
+	background:#1b9cff url(../images/icon/ico4.png) no-repeat center center;
+}
+
+.service-ico3 {
+	background:#1b9cff url(../images/icon/ico5.png) no-repeat center center;
+}
+
+.services:hover .shadow-right {
+	opacity:1;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+
+/*------------------------------------------------------------- 
+	                   404PAGE  STYLES
+---------------------------------------------------------------*/
+
+.error-wrap {}
+
+.error-wrap .contact-form {
+	display:table;
+	margin:0 auto;
+	width:40%;
+	position: relative;
+	left: 35px;
+}
+
+.error-wrap h4 {
+	font-size:32px;
+	color:#3d474d;
+	margin-bottom:20px;
+	text-align:center;
+	font-weight:700;
+}
+
+.error-wrap h4 span {
+	font-size:33px;
+	color:#1b9cff;
+	position:relative;
+	top:-10px;
+}
+
+.error-wrap p {
+	color:#636a6e;
+	font-size:18px;
+	font-weight:400;
+	text-align:center;
+	margin-bottom:25px;
+}
+
+.menu-wrap {
+    background: #484647;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+/* Tweets widget styles
+-------------------------------------------------- */
+
+.tweet, .query {
+	line-height: 1.5em;
+}
+  
+.tweet .tweet_list,
+.query .tweet_list {
+	-webkit-border-radius: .5em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.tweet .tweet_list .awesome,
+.tweet .tweet_list .epic,
+.query .tweet_list .awesome,
+.query .tweet_list .epic {
+text-transform: uppercase; }
+
+.tweet .tweet_list li,
+.query .tweet_list li {
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 0px 0px 2px 0px;
+	margin-bottom: 10px;
+}
+
+.tweet .tweet_list li:last-child,
+.query .tweet_list li:last-child {
+	border-bottom: none;
+}
+
+.tweet .tweet_list li a,
+.query .tweet_list li a {
+	text-decoration: none;
+}
+
+.tweet .tweet_list li a:hover,
+.query .tweet_list li a:hover {
+	color:#fff;
+	border-bottom: 1px dotted #999;
+}
+
+.tweet .tweet_list .tweet_avatar,
+.query .tweet_list .tweet_avatar {
+	padding-right: .5em;
+	float: left;
+}
+
+.tweet .tweet_list .tweet_avatar img,
+.query .tweet_list .tweet_avatar img {
+	vertical-align: middle;
+}
+
+.tweet .tweet_list .tweet_time a{
+	font-size:13px;
+}
+
+.tweet .tweet_list .tweet_text{
+	color: #727272;
+	font-size:13px;
+	line-height:21px;
+}
+
+.tweet-link {
+	text-transform:uppercase;
+	color:#aaa;
+	font-size:12px;
+	border-bottom:1px solid #555;
+	background:url(../images/quotes-tweet.png) no-repeat left;
+	padding-left:19px;
+}
+
+.tweet-link:hover {
+	color:#3fbcef;
+}
+
+/*------------------------------------------------------------- 
+	                 SOCIAL STYLES
+---------------------------------------------------------------*/
+
+#redsocial .social {
+	background:#1896ff;
+	height:63px;
+}
+
+#redsocial .social p {
+	color:#fff;
+	font-weight:300;
+	/* line-height:63px; */
+	/* margin:0px; */
+	padding:25px 0 16px 0;
+	background:url(../images/icon/social_bg.png) no-repeat top right;
+}
+
+#redsocial .social-info{
+	padding:16px 0 0 0;
+	display:table;
+	float:right;
+}
+
+#redsocial .social-info li {
+	float:left;
+	list-style:none;
+	color:#fff;
+	margin-left:28px;
+	line-height:32px;
+}
+
+#redsocial .social-info li a {
+	color:#fff;
+}
+
+#redsocial .social-info li a span {
+	background:#bae0ff;
+	color:#1896ff;
+	border-radius: 3px;
+	width: 34px;
+	height: 25px;/* 32px; */
+	font-size: 23px;
+	display: table;
+	text-align: center;
+	float: left;
+	margin-right:10px;
+}
+
+#redsocial .social-info li a:hover span {
+	background:#fff;
+}
+
+/*------------------------------------------------------------- 
+	                  ETXRAS
+---------------------------------------------------------------*/
+
+.section-title, .side-widget h5 {
+	color:#444444;
+	font-size:20px;
+	margin:0px 0px 30px;
+	background: url(../images/icon/line.png) repeat-x left 9px;
+}
+
+.section-title span, .side-widget h5 span {
+	background:#fff;
+	padding-right:5px;
+}
+
+/* .section-title h5{
+	font-family: inherit;
+	font-weight:700;
+	line-height:1.1;
+	
+} */
+
+/* EL CODIGO A PARTIR DE ESTA LINEA ESTA SIENDO PROBADO */
+/*------------------------------------------------------------- 
+	                  TABS STYLES
+---------------------------------------------------------------*/
+
+.tab-pane {margin-top: 15px;}
+
+.section,.section-colored {padding: 85px 0;}
+.section-colored {background-color: #e1e1e1; /* change this to change the background color of a colored section */}
+
+.fullwidthbanner-container:before, .white-panel:before, .carousel-video:before , .cta-box:before, .post-format-quicktime:before, .quote-wrap:before, .home-post-date:before, .nav-tabs > li.active > a:before ,
+#small-slider:before, .page-head:before,#psingle-slider:before {
+	content:"";
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:999;
+	border-width:0 30px 30px 0;
+	border-style:solid;
+	border-color: #1c9dfb #cdcdcd ;
+}
+
+.white-panel:before , .cta-box:before, .quote-wrap:before, .home-post-date:before, .nav-tabs > li.active > a:before  {
+	border-width:0 15px 15px 0;
+}
+
+.item,
+.active,
+.carousel-inner {
+	height: 100%;
+	margin:0px 0px 0px;
+}
+
+.fill {
+	width: 100%;
+	height: 439px;
+	background-position: center;
+}
+
+/*------------------------------------------------------------- 
+	                 SHORTCODE STYLES
+---------------------------------------------------------------*/
+
+.about-home {}
+
+.about-home p {
+	color:#8a8a8a;
+	font-size:12px;
+	line-height:20px;
+}
+
+.white-panel {
+	background:#fafafa;
+	border: 1px solid #dfdfdf;
+	padding: 10px 15px 0 15px;
+	position:relative;
+	margin: 20px 0;
+		color:#8a8a8a;
+	
+}
+
+.cta-box {
+	border:1px solid #e1e1e1;
+	padding:40px 15px;
+	display:table;
+	width:100%;
+	position:relative;
+	background:#fafafa;
+}
+
+.cta-box h4 {
+	font-size:20px;
+	margin:0px 0px 5px;
+	color:#2e2e2e;
+}
+
+.cta-box p {
+	margin:0px;
+	font-size:14px;
+	color:#2e2e2e;
+	font-weight:600;
+}
+
+#myTabContent {
+	border:1px solid #e1e1e1;
+	padding:25px;
+	border-top:none;
+}
+
+#myTabContent p {
+	font-size:12px;
+	color:#8a8a8a;
+}

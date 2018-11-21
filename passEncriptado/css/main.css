@@ -1,0 +1,31 @@
+@charset "UTF-8";
+*{
+	 box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;  
+	/*font-family: 'Abel', sans-serif;
+	background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+}
+.datos{
+  width: 751px;
+  margin: 0 auto;
+  text-decoration: blink;
+}
+
+.izq{
+  //width:50%; 
+  text-align: left;
+  
+}
+.der{
+  //width:50%;
+  text-align: right;
+}
+.cen{
+  text-align: center;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Título de la WEB</title>
+<meta charset="UTF-8">
+<meta name="title" content="Título de la WEB">
+<meta name="description" content="Descripción de la WEB">
+<link href="http://dominio.com/hoja-de-estilos.css" rel="stylesheet"
+  type="text/css" />
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <h1>Título de la WEB</h1>
+  </header>
+  <nav>
+    <a href="http://dominio.com/seccion2.html">IR SECCIÓN 2</a> <a
+      href="http://dominio.com/seccion2.html">IR SECCIÓN 3</a>
+  </nav>
+  <section class="datos">
+    <div>
+      <h2 class="cen">INGRESO DE USUARIOS</h2>
+    </div>
+    <form id="registrardatos" class="" action="insertarRegistrosPDO.php" method="POST">
+      <div>
+        <span class="izq">Tipo Usuario *</span> <input class="der"
+          type="text" name="tipo" placeholder="IN:Interno;  EX: Externo, TM:Temporal">
+      </div>
+      <div>
+        <span class="izq">Tipo Identificación *</span> <input
+          class="der" type="text" name="tipo_identificacion"
+          placeholder="CI:Cedula; DNI:DNI; RUC:RUC">
+      </div>
+      <div>
+        <span class="izq">Número Identificación *</span> <input
+          class="der" type="text" name="numero_identificacion">
+      </div>
+      <div>
+        <span class="">Apellidos *</span> <input class="" type="text"
+          name="apellidos">
+      </div>
+      <div>
+        <span class="">Nombres *</span> <input class="" type="text"
+          name="nombres">
+      </div>
+      <div>
+        <span class="">Razon Social *</span> <input class="" type="text"
+          name="razon_social" placeholder="Nombres y Apellidos">
+      </div>
+      <div>
+        <span class="">Username *</span> <input class="" type="text"
+          name="codigo" placeholder="Ingrese codigo de hasta 8 Dijitos">
+      </div>
+      <div>
+        <span class="">Direccion *</span> <input class="" type="text"
+          name="direccion">
+      </div>
+      <div>
+        <span class="">Telefono *</span> <input class="" type="text"
+          name="telefono1">
+      </div>
+      <div>
+        <span class="">Otro telefono </span> <input class="" type="text"
+          name="telefono2">
+      </div>
+      <div>
+        <span class="">Celular *</span> <input class="" type="tel"
+          name="celular1">
+      </div>
+      <div>
+        <span class="">Otro celular</span> <input class="" type="tel"
+          name="celular2">
+      </div>
+      <div>
+        <span class="">Email *</span> <input class="" type="email"
+          name="email1">
+      </div>
+      <div>
+        <span class="">Otro Email</span> <input class="" type="email"
+          name="email2">
+      </div>
+      <div>
+        <span class="">Fecha Nacimiento *</span> <input class=""
+          type="date" name="fecha_nacimiento">
+      </div>
+      <div>
+        <span class="">Profesion</span> <input class="" type="text"
+          name="profesion">
+      </div>
+      <div>
+        <span class="">Actividades</span> <input class="" type="text"
+          name="actividades">
+      </div>
+      <div>
+        <span class="">Rol/Departamento *</span> <input class=""
+          type="text" name="rol">
+      </div>
+      
+      <div>
+        <span class="">Descripcion</span> <input class="" type="text"
+          name="descripcion">
+      </div>
+      <div>
+        <span class="">Clave *</span> <input class="" type="password"
+          name="clave">
+      </div>
+      <div>
+        <span class="">Rep Clave *</span> <input class="" type="password"
+          name="repetir_clave">
+      </div>
+      <div><input type="submit" name="enviar" id="enviar" value="Insertar"></div>
+      <div><input type="reset" name="Borrar" id="Borrar" value="Borrar"></div>
+
+
+    </form>
+  </section>
+  <aside>
+    <h3>Banner de publicidad</h3>
+    <a href="http://dominio-externo.com"> <img
+      src="http://dominio.com/banner-publicidad.png"
+      alt="banner de publicidad">
+    </a>
+    <h3>Testimonios</h3>
+    <p>Me gusta mucho esta página.</p>
+  </aside>
+  <footer>
+    <h4>Avisos legales</h4>
+    <a href="http://dominio.com/aviso-legal">Política de cookies</a>
+    <h4>Redes sociales</h4>
+    <a href="http://facebook.com/mi-pagina-de-facebook">Mi Facebook</a>
+  </footer>
+</body>
+</html>
