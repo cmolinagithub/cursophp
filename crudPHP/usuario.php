@@ -19,9 +19,7 @@ $cont = 1;
    <div class="container">
 
       <div class="panel panel-default">
-      <div class="panel-heading">
-               
-       
+      <div class="panel-heading">     
       </div>
         <div class="panel-body">
               <nav class="navbar navbar-light bg-light justify-content-between">
