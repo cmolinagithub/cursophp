@@ -40,6 +40,7 @@ require "procesar_usuario.php";
               <input type="text" class="form-control" id="Username" placeholder="8 dijitos">
             </div>
           </div>
+          
       
       
       
