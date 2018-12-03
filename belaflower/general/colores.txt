@@ -1,0 +1,2 @@
+Color principal: fd0ccd
+color secundario:245c01
