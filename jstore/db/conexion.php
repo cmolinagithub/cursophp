@@ -6,7 +6,6 @@
         public function Conexion(){
             //En esta parate se va a usar PDO para la conexion a la Base de Datos con la libreria PDO.
             try{
-                echo"Se va a relizar conexio";
                 $this->conexion_db=new PDO('mysql:host=localhost; dbname=dbjstore','cmolina','19841984');
                 //$this->conexion_db=new PDO('mysql:host='.DB_HOST.'; dbname='.DB_NOMBRE.','.DB_USUARIO.','.DB_CONTRA."'");
                 $this->conexion_db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

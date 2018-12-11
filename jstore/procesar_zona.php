@@ -7,7 +7,9 @@ class ProcesarZona extends Conexion{
     
     public function  getZona(){
          //A continuacion se va a realizar la consulta con la libreria PDO
-        $sql="SELECT zone_id, country_id, name, code, status FROM cj_zone where status=1";
+        $sql="SELECT cj_zone.zone_id 'ID', cj_country.name 'PAIS', cj_zone.name 'ESTADO', 
+        cj_zone.code 'CODIGO' FROM cj_zone INNER JOIN cj_country 
+        on cj_zone.country_id=cj_country.country_id where cj_zone.status=1";
        $sentencia=$this->conexion_db->prepare($sql);
        $sentencia->execute(array());
        $resultado=$sentencia->fetchAll(PDO::FETCH_ASSOC);

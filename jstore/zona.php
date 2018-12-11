@@ -23,23 +23,21 @@ $cont = 1;
       </div>
         <div class="panel-body">
               <nav class="navbar navbar-light bg-light justify-content-between">
-              <a class="navbar-brand">ZONA / LUGAR</a>
+              <a class="navbar-brand">ESTADO / PROVINCIA</a>
               <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Usuario o Departamento" aria-label="Search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pais / Provincia" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="button">Agregar Usuario</button>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="button">Agregar</button>
               </form>
              </nav>
           <div class="table-responsive1">
             <table class="table table-bordered table-sm">
               <thead>
                 <tr>
-                  <th>CONT</th>
                   <th>ID</th>
                   <th>PAIS</th>
-                  <th>ZONA</th>
+                  <th>ESTADO/PROVINCIA</th>
                   <th>CODIGO</th>
-                  <th>ESTADO</th>
                   <th>OPCION</th>
                </tr>
               </thead>
@@ -50,12 +48,10 @@ $cont = 1;
 foreach ($array_zonas as $zona) {
         ?>
         <tr>
-                  <td><?php echo $cont;?></td>
-                  <td><?php echo $zona['zone_id'];?></td>
-                  <td><?php echo $zona['country_id'];?></td>
-                  <td><?php echo $zona['name'];?></td>
-                  <td><?php echo $zona['code'];?></td>
-                  <td><?php echo $zona['status'];?></td>
+                  <td><?php echo $zona['ID'];?></td>
+                  <td><?php echo $zona['PAIS'];?></td>
+                  <td><?php echo $zona['ESTADO'];?></td>
+                  <td><?php echo $zona['CODIGO'];?></td>
                   <td>
                   <div class="btn-group btn-group-sm">
                    
