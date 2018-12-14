@@ -27,7 +27,7 @@ $cont = 1;
               <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Pais / Provincia" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="button">Agregar</button>
+                <a class="btn btn-primary" href="ingresar_zona.php" role="button">Agregar</a>
               </form>
              </nav>
           <div class="table-responsive1">
@@ -55,7 +55,7 @@ foreach ($array_zonas as $zona) {
                   <td>
                   <div class="btn-group btn-group-sm">
                    
-                  <a href="" title="Ver"><button type="button"
+                  <a href="https://api.whatsapp.com/send?phone=0994284596" title="Ver"><button type="button"
                         class="btn btn-default"><i class="far fa-eye"></i></button></a>
                     <a href="" title="Editar"><button type="button"
                         class="btn btn-default"><i class="fas fa-edit"></i></button></a>
