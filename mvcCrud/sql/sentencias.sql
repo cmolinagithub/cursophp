@@ -1,3 +1,2 @@
-SELECT cj_country.name  , cj_zone.name, cj_zone.code  
-FROM cj_country inner join cj_zone 
-on (cj_country.country_id=cj_zone.country_id);
+SELECT `user_id`, `user_group_id`, `username`, `password`, 
+`salt`, `firstname`, `lastname`, `email`, `image`, `code`, `ip`, `status`, `date_added` FROM `cj_user` WHERE 1

@@ -16,17 +16,30 @@
       <div class="card">
           <div class="card-header">
           <div class="row">
-            <div class="col">Pais</div>
-            <div class="col">Estado/Provincia</div>
+            <div class="col"></div>
+            <div class="col">Grupo</div>
+            <div class="col">Usuario</div>
+            <div class="col">Nombre</div>
+            <div class="col">Apellido</div>
+            <div class="col">Correo</div>
             <div class="col">Codigo</div>
+            <div class="col">Estado</div>
+            <div class="col">Fecha Creaccion</div>
         </div>
           </div>
             <?php
-            foreach ($matrizzona as $registro) { ?>
+            foreach ($arrayuser as $resul) { ?>
         <div class="row">
-            <div class="col"><?php echo $registro["country_id"]; ?></div>
-            <div class="col"><?php echo $registro["name"]; ?></div>
-            <div class="col"><?php echo $registro["code"]; ?></div>
+            <div class="col"><?php echo $resul["user_id"]; ?></div>
+            <div class="col"><?php echo $resul["user_group_id"]; ?></div>
+            <div class="col"><?php echo $resul["username"]; ?></div>
+            <div class="col"><?php echo $resul["firstname"]; ?></div>
+            <div class="col"><?php echo $resul["lastname"]; ?></div>
+            <div class="col"><?php echo $resul["email"]; ?></div>
+            <div class="col"><?php echo $resul["code"]; ?></div>
+            <div class="col"><?php echo $resul["status"]; ?></div>
+            <div class="col"><?php echo $resul["date_added"]; ?></div>
+
         </div>
         <?php 
     } ?>      

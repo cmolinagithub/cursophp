@@ -7,9 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>MODELO - VISTA - CONTROLADOR</h1>
+    <h1>MODEL  - VIEW - CONTROLLER</h1>
     <?php
-    require_once("controlador/Zonas_controlador.php")
+    require_once("controller/User_controller.php")
     ?>
     
 </body>
