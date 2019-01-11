@@ -12,15 +12,22 @@ class User_model
         $this->user = array();
 
     }
-    public function get_user()
+    public function get_user($empezar_desde,$cant_registros)
     {
-        $sql = "SELECT * FROM cj_user";
+        $sql = "SELECT * FROM cj_user LIMIT $empezar_desde,$cant_registros";
         $query = $this->db->query($sql);
         while ($row = $query->fetch(PDO::FETCH_ASSOC)) {
             $this->user[] = $row;
         }
         return $this->user;
 
+    }
+    public function get_user_total()
+    {
+        $sql = "SELECT * FROM cj_user";
+        $query = $this->db->query($sql);
+        $total_user=$query->rowCount();
+        return $total_user;
     }
 
 }

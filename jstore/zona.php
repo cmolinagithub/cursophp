@@ -55,7 +55,7 @@ foreach ($array_zonas as $zona) {
                   <td>
                   <div class="btn-group btn-group-sm">
                    
-                  <a href="https://api.whatsapp.com/send?phone=0994284596" title="Ver"><button type="button"
+                  <a href="https://api.whatsapp.com/send?phone=593994284596" title="Ver"><button type="button"
                         class="btn btn-default"><i class="far fa-eye"></i></button></a>
                     <a href="" title="Editar"><button type="button"
                         class="btn btn-default"><i class="fas fa-edit"></i></button></a>

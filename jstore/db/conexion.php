@@ -2,7 +2,7 @@
     require ("config.php");
       
     class Conexion{
-        protected $conexion_db;     
+        public $conexion_db;     
         public function Conexion(){
             //En esta parate se va a usar PDO para la conexion a la Base de Datos con la libreria PDO.
             try{
