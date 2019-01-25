@@ -1,0 +1,1 @@
+UPDATE cj_user SET image='foto' where user_id=1;
