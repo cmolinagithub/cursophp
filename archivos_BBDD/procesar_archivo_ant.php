@@ -53,7 +53,7 @@ if ($tamanio_archivo <= 1500000) {
    echo ("</br>Contenido con addcslashes".$contenido);
 
 */
-    $ruta_archivo="/home/cmolina/Desarrollo/corp-jehu/archivos";
+    $ruta_archivo="/home/cmolina/Desarrollo/corp-jehu/archivos/";
     $nombre_archivo="Pago_pollo.pdf";
     echo("</br>Archivo Objetivo: ".$ruta_archivo.$nombre_archivo);
 
