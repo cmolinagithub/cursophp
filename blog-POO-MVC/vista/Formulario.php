@@ -34,8 +34,6 @@ td{
   <td>Título: 
     <label for="campo_titulo"></label></td>
   <td><input type="text" name="campo_titulo" id="campo_titulo"></td>
-  
-  
   </tr>
   <tr><td>Comentarios: 
     <label for="area_comentarios"></label></td>
@@ -50,8 +48,7 @@ td{
     <tr>
     <td colspan="2" align="center">  
     <input type="submit" name="btn_enviar" id="btn_enviar" value="Enviar"></td></tr>
-  <tr><td colspan="2" align="center"><a href="Mostrar_blog.php">Página de visualización del blog</a></td></tr>
-  
+  <tr><td colspan="2" align="center"><a href="Mostrar_Blog.php">Página de visualización del blog</a></td></tr>
   </table>
 </form>
 <p>&nbsp;</p>
