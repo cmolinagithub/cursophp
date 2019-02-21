@@ -11,6 +11,7 @@
     <body>
     
     	 <?php
+		 	echo "Estas es una buena se";
 		 	
 			$usuario = $_GET["usu"];
 			
